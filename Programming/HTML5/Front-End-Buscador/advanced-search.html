@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Búsqueda Avanzada</title>
+    <link rel="shortcut icon" href="google.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor1">
+
+        <h1 class="titulo1">
+            <span style="color:blue;">G</span><span style="color:red;">o</span><span style="color:orange;">o</span><span
+                style="color:blue;">g</span><span style="color:green;">l</span><span style="color:red;">e</span>
+        </h1>
+        <h3 class="subtitulo1">Búsqueda Avanzada</h3>
+        <hr class="gris">
+        <h3 class="subtitulo2"> Buscar páginas con...</h3>
+        <form action="https://www.google.com/search" method="GET" class="form-busqueda">
+
+            <div class="fila-campo">
+                <label for="as_q">todas estas palabras:</label>
+                <input type="text" name="as_q" id="as_q" class="buscador1">
+                <label class="label-info">Ingresa las palabras importantes: Terrier ratonero tricolor .</label>
+            </div>
+
+            <div class="fila-campo">
+                <label for="as_epq">esta palabra o frase exactas:</label>
+                <input type="text" name="as_epq" id="as_epq" class="buscador1">
+                <label class="label-info">Ingresa las palabras exactas entre comillas: "Terrier ratonero" .</label>
+            </div>
+
+            <div class="fila-campo">
+                <label for="as_oq">cualquiera de estas palabras:</label>
+                <input type="text" name="as_oq" id="as_oq" class="buscador1">
+                <label class="label-info">Ingresa OR entre las palabras que desees: En miniatura OR estándar .</label>
+            </div>
+
+            <div class="fila-campo">
+                <label for="as_eq">ninguna de estas palabras:</label>
+                <input type="text" name="as_eq" id="as_eq" class="buscador1">
+                <label class="label-info">Ingresa un signo menos justo delante de las palabras que no deseas que <br>
+                    aparezcan: -Roedor, -"Jack Russell" .</label>
+            </div>
+
+            <div class="fila-boton">
+                <input type="submit" value="Búsqueda Avanzada" class="btn-google">
+            </div>
+        </form>
+        <form action="index.html" method="GET">
+            <div class="enlace">
+                <a href="index.html">Volver a la página principal</a>
+
+            </div>
+
+    </div>
+</body>
+
+</html>

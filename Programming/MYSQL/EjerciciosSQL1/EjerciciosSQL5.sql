@@ -1,0 +1,1 @@
+SELECT * FROM prueba2.t_prueba2;
